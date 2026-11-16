@@ -35,5 +35,4 @@
 
 - Quyết định: Release
 - Lý do, người nhận và phạm vi sử dụng: vòng 3 có 0 lỗi trên 40/40 ảnh duyệt sau khi sửa 2 ca bỏ sót của vòng 2; taxonomy/guideline khớp. Người nhận: coach, dùng cho thực hành đặc tả/QC.
-- Nếu còn việc: (1) vòng 2 và 3 do 107 duyệt với hỗ trợ AI (xem `individual_notes/107.md`); 107 vừa chốt Q01/Q02 vừa duyệt vòng 3, nên đề nghị 113 xem lại img_019, img_030 trong CVAT; (2) 28 ảnh calibration chưa sửa tay trong CVAT; (3) duyệt dựa trên ảnh chồng nhãn, không đo từng mép box theo R-01; (4) `ignore_region` img_019 phủ nhẹ mép đèn trái của xe #200.
 - Kiểm ngược từ báo cáo tới ảnh, rule và nhãn: ca C001 (img_001) → `calibration_decisions.csv` → R-16 → `113_calibration_fixes.csv` (thêm person thứ hai) → `labels_calibrated.json`.
