@@ -1,0 +1,27 @@
+﻿frame,image,thao_tac,rule,truoc,sau,ly_do
+2,img_005.jpg,đổi lớp,R-18,car,van,"Xe bạc ở mép trái cao, thân hộp có cửa kính bên: là van (107 đúng); 113 gán nhầm car"
+2,img_005.jpg,thêm,R-12,,"car [0, 135, 95, 285]",Có thêm 1 ô tô bạc thấp bên dưới van (thấy bánh + thân); 113 bỏ sót
+2,img_005.jpg,sửa box,R-13,"[69, 26, 538, 357]","[70, 25, 960, 356]",Van kéo dài tới mép phải ảnh phía sau người ngồi xe máy; box cũ cụt ở x=537
+2,img_005.jpg,sửa box,R-21,"[320, 117, 487, 280]","[320, 115, 570, 520]",Người đàn ông áo sọc sau tài xế: box cũ chỉ ôm đầu; vẽ cả thân như 107
+2,img_005.jpg,truncated=yes,R-13,"[538, 151, 906, 626] no","[538, 151, 906, 640] yes","Người áo xanh bị mép dưới ảnh cắt, thân còn kéo ra ngoài"
+2,img_005.jpg,truncated=yes,R-13,"[35, 217, 499, 636] no","[35, 217, 499, 640] yes","Người trước bị mép dưới ảnh cắt, thân còn kéo ra ngoài"
+2,img_005.jpg,xóa,R-12,"motorcycle [0, 295, 481, 627]",,"Xe máy chỉ thấy đèn/ghi-đông bị người che hết, không thấy bánh: không đạt R-12 (107 không gán)"
+2,img_005.jpg,xóa,R-12,"motorcycle [0, 297, 212, 593]",,"Xe máy chỉ thấy đèn/ghi-đông bị người che hết, không thấy bánh: không đạt R-12 (107 không gán)"
+2,img_005.jpg,xóa,R-12,"motorcycle [774, 378, 960, 636]",,"Xe máy chỉ thấy đèn/ghi-đông bị người che hết, không thấy bánh: không đạt R-12 (107 không gán)"
+2,img_005.jpg,xóa,R-12,"motorcycle [452, 437, 794, 640]",,"Xe máy chỉ thấy đèn/ghi-đông bị người che hết, không thấy bánh: không đạt R-12 (107 không gán)"
+2,img_005.jpg,xóa,R-12,"person [0, 334, 47, 574]",,"Chỉ thấy mảng vai/tay ở mép trái, không thấy đầu: không đạt R-12"
+0,img_001.jpg,truncated=yes,R-13,"[231, 205, 388, 637] no","[231, 205, 388, 640] yes",Người đứng quay lưng bị mép dưới ảnh cắt ở chân
+0,img_001.jpg,truncated=yes,R-13,"[328, 93, 948, 637] no","[328, 93, 948, 640] yes","Xe bán tải sát mép dưới/phải, bánh sau chạm mép ảnh"
+0,img_001.jpg,thêm,R-16,,"person [100, 105, 152, 265]","Có hai phụ nữ ngồi cạnh nhau; 113 chỉ vẽ một box ôm cả hai, bổ sung box người thứ hai như 107"
+1,img_004.jpg,sửa box,R-21,"[236, 126, 336, 234]","[177, 125, 336, 431]","Tài xế tuk-tuk: box cũ cụt ở ngực, vẽ tới chân đang ngồi (102)"
+3,img_007.jpg,truncated=yes,R-13,"[652, 59, 958, 445] no","[652, 59, 960, 445] yes","Xe Isuzu sát mép phải ảnh, thân còn kéo ra ngoài"
+7,img_016.jpg,đổi lớp,R-18,tuk_tuk,truck,"Xe bạc có chữ Mighty-X và thùng sau là bán tải (truck), không phải tuk-tuk; 515 đúng"
+7,img_016.jpg,sửa box,R-01,"[0, 276, 328, 556]","[0, 278, 326, 520]","Thu box truck về thân bán tải, bỏ phần tuk-tuk phía trước"
+7,img_016.jpg,thêm,R-24/R-18 nhóm,,"tuk_tuk [0, 305, 195, 658]","Tuk-tuk xanh-vàng ở góc dưới trái, tách khỏi bán tải; 113 bỏ sót"
+11,img_024.jpg,xóa,R-16,"car [101, 233, 542, 600]",,Một xe một box: Pacer bị chia thành 2 box (mặt sau + sườn) và 1 mảnh xe kem không thấy bánh
+11,img_024.jpg,xóa,R-16,"car [415, 234, 838, 599]",,Một xe một box: Pacer bị chia thành 2 box (mặt sau + sườn) và 1 mảnh xe kem không thấy bánh
+11,img_024.jpg,xóa,R-16,"car [0, 199, 192, 261]",,Một xe một box: Pacer bị chia thành 2 box (mặt sau + sườn) và 1 mảnh xe kem không thấy bánh
+11,img_024.jpg,thêm,R-16,,"car [75, 226, 842, 702]",Một box ôm cả xe Pacer từ đuôi tới sườn (như 102)
+19,img_040.jpg,sửa box,R-01,"[325, 120, 600, 400]","[302, 78, 537, 408]",Box tuk-tuk phải gồm cả biển TAXI trên mái (515)
+19,img_040.jpg,thêm,R-13,,"bus [0, 118, 72, 214]","Xe buýt nhòe ở mép trái ảnh, vẫn nhận ra dáng và biển số"
+19,img_040.jpg,thêm,R-03,,"person [453, 167, 517, 274]","Hành khách ngồi sau kính chắn gió tuk-tuk, thấy đầu và vai"
