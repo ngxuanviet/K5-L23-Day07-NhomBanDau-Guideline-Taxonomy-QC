@@ -16,24 +16,24 @@
 
 ## 3. Calibration và kiểm lại
 
-- Ca đã xử lý, rule ID, bản sửa và người xác nhận: 548/548 ca có dòng trong `submission/qc/calibration_decisions.csv` (người chốt 113; quy tắc R-01, R-05, R-12, R-13, R-18, R-20). Bản sửa chi tiết 26 thay đổi: `submission/qc/proposals/113_calibration_fixes.csv`.
+- Ca đã xử lý, rule ID, bản sửa và người xác nhận: 548/548 ca có dòng trong `submission/qc/calibration_decisions.csv` (người chốt 113; quy tắc R-01, R-05, R-12, R-13, R-18, R-20). Bản sửa chi tiết 26 thay đổi: `submission/qc/proposals/113_calibration_fixes.csv`. Sau QC vòng 2 thêm 2 ca Q01 (img_019), Q02 (img_030), người chốt 107, quy tắc R-05; COCO sau sửa `labels_calibrated_f2094d70f8aab17a.json`.
 - Tác động v1.1 lên nhãn và ảnh: `kind=editorial`, phạm vi `anh`; 35/40 ảnh qua calibration, trong đó 7 ảnh áp bản sửa của 113, 28 ảnh giữ nhãn đồng thuận. Cờ `can_review` được hạ vì mỗi ca đã có quyết định.
-- Tham chiếu bằng chứng khi Rework: không có (vòng 1 không Rework).
+- Tham chiếu bằng chứng khi Rework: vòng 2 (107) ra Rework vì 2/40 ảnh bỏ sót theo R-05 → ca Q01, Q02 trong `calibration_decisions.csv` → thêm 2 `ignore_region` → `build_final.py` → vòng 3. Phiếu vòng 1, 2 giữ nguyên trong `reviews/round-01/`, `round-02/`.
 
 ## 4. Kết quả duyệt
 
-- Vòng QC: 1
-- Người review và ngày: 113, 2026-11-16
-- Đã duyệt / cả lô: 40/40
-- Ảnh lỗi / ảnh đã duyệt: 0/40 = 0.0%
-- Annotation đối tượng hiện có bị lỗi / annotation đối tượng đã duyệt: 0/432 = 0.0%
-- Vật bỏ sót, ảnh và vùng: không ghi nhận.
-- Ca khó / phần còn lại, lỗi lặp và ví dụ: ca_kho 0/35 ảnh lỗi, con_lai 0/5; phiếu `submission/qc/reviews/round-01/qc_review.csv`. Không có lỗi lặp.
+- Vòng QC: 3
+- Người review và ngày: vòng 1: 113; vòng 2 và 3: 107 (người review bản cuối, duyệt độc lập), 2026-11-16
+- Đã duyệt / cả lô: 40/40 ở cả ba vòng
+- Ảnh lỗi / ảnh đã duyệt: vòng 1: 0/40 = 0.0%; vòng 2: 2/40 = 5.0% (Rework); vòng 3: 0/40 = 0.0%
+- Annotation đối tượng hiện có bị lỗi / annotation đối tượng đã duyệt: 0/432 = 0.0% ở cả ba vòng (lỗi vòng 2 là bỏ sót, không nằm trên box có sẵn)
+- Vật bỏ sót, ảnh và vùng (vòng 2): img_019 vùng x 0-258, y 0-410 (đám đông sau rào bên trái, không có box hay ignore_region); img_030 vùng x 445-700, y 45-155 (cụm xe máy dựng phía sau). Cả hai đã gom `ignore_region` theo R-05.
+- Ca khó / phần còn lại, lỗi lặp và ví dụ: vòng 2 ca_kho 2/35 ảnh lỗi, con_lai 0/5; vòng 3 ca_kho 0/35, con_lai 0/5; phiếu `submission/qc/reviews/round-03/qc_review.csv`. Hai lỗi cùng kiểu (bỏ sót cụm đông, R-05) nhưng đã sửa và không còn ở vòng 3.
 - Một lỗi máy chặn được và một lỗi cần người đọc ảnh: máy chặn được box thiếu thuộc tính / sai schema (`validate_labels.py`) và cờ `can_review` còn sót (`qc_report.py` ra HOLD lần đầu). Cần người đọc ảnh: box có ôm sát vật không, vật bỏ sót ở vùng đông (img_021, img_030).
 
 ## 5. Quyết định bàn giao
 
 - Quyết định: Release
-- Lý do, người nhận và phạm vi sử dụng: 0 lỗi trên 40/40 ảnh duyệt, taxonomy/guideline khớp. Người nhận: coach, dùng cho thực hành đặc tả/QC.
-- Nếu còn việc: (1) 107 (người review bản cuối) duyệt độc lập vì 113 vừa chốt calibration vừa duyệt; (2) 28 ảnh calibration chưa sửa tay trong CVAT; (3) duyệt dựa trên ảnh chồng nhãn, không đo từng mép box theo R-01.
+- Lý do, người nhận và phạm vi sử dụng: vòng 3 có 0 lỗi trên 40/40 ảnh duyệt sau khi sửa 2 ca bỏ sót của vòng 2; taxonomy/guideline khớp. Người nhận: coach, dùng cho thực hành đặc tả/QC.
+- Nếu còn việc: (1) vòng 2 và 3 do 107 duyệt với hỗ trợ AI (xem `individual_notes/107.md`); 107 vừa chốt Q01/Q02 vừa duyệt vòng 3, nên đề nghị 113 xem lại img_019, img_030 trong CVAT; (2) 28 ảnh calibration chưa sửa tay trong CVAT; (3) duyệt dựa trên ảnh chồng nhãn, không đo từng mép box theo R-01; (4) `ignore_region` img_019 phủ nhẹ mép đèn trái của xe #200.
 - Kiểm ngược từ báo cáo tới ảnh, rule và nhãn: ca C001 (img_001) → `calibration_decisions.csv` → R-16 → `113_calibration_fixes.csv` (thêm person thứ hai) → `labels_calibrated.json`.
