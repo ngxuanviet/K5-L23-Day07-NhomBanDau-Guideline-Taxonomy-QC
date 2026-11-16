@@ -17,6 +17,7 @@ for img in cons["images"]:
     for a in src["annotations"]:
         if a["image_id"] == sid:
             at = {k: v for k, v in a["attributes"].items() if k != "needs_calibration"}
+            at["can_review"] = False  # ca đã có quyết định trong calibration_decisions.csv
             out["annotations"].append(dict(a, id=len(out["annotations"]) + 1, image_id=nid, attributes=at))
 Path(sys.argv[1]).write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf8")
 print(len(out["images"]), "ảnh,", len(out["annotations"]), "box; lấy từ đề xuất 113:", len(fixed & set(pid)), "ảnh")
