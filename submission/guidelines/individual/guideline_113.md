@@ -151,4 +151,4 @@ Phần bị cắt **mép ảnh** không tính là "che" (đã có `truncated`). 
 | Phiên bản | Thay đổi | Lý do (ca nào) |
 |---|---|---|
 | v0 | Bản giảng viên | — |
-| v0.2 (113) | Thêm R-01…R-18, ngưỡng `occluded_level`, quy tắc vật giả/phản chiếu, người + xe máy box riêng, xe chở xe, phương tiện ngoài lớp; R-14…R-18 kế thừa từ BT2 v1.1 | img_002, 004, 005, 006, 008, 012, 017, 020, 026, 027, 033, 040 (pilot) và img_021, 024, 028, 029, 030, 015, 031 |
+| v0.2 (113) | Thêm R-01…R-20, ngưỡng `occluded_level`, quy tắc vật giả/phản chiếu, người + xe máy box riêng, xe chở xe, phương tiện ngoài lớp, sidecar, xe lễ hội; R-14…R-18 kế thừa từ BT2 v1.1; thêm bảng đọc từng ảnh cho cả 40 ảnh | Đã xem lại cả 40 ảnh; ca khó chính: img_002, 004, 005, 006, 008, 012, 017, 019, 020, 022, 024, 026, 027, 033, 040 |
