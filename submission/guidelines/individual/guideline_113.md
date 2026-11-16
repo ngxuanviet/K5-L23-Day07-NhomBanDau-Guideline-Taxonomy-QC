@@ -2,7 +2,7 @@
 
 - Phiên bản: v0.2 (bản cá nhân, viết từ `guideline_v0_starter.md`, chưa phải bản nhóm)
 - Ngày: 2026-11-16
-- Người viết: **Phạm Phú Nguyễn Hưng** — MSSV **2A202604062** — mã thành viên **113** (nhóm NhomBanDau). Chưa ai duyệt.
+- Người viết: mã thành viên **113** (nhóm NhomBanDau). Chưa ai duyệt.
 - Phạm vi khảo sát: cả 40 ảnh `data/images/`; ví dụ dẫn bằng mã ảnh `img_0xx`. Dấu (P) = ảnh thuộc lô pilot 12 ảnh cũ; upstream đã bỏ pilot, nay gán cả 40 ảnh nên dấu này chỉ còn là ghi chú.
 - Phần gán của 113: theo `submission/qc/assignment.csv` chung của nhóm (nhóm trưởng chạy `split_assign.py` với danh sách mã thật).
 - Kế thừa cách viết của guideline BT2 v1.1 (`bt2_submit/guideline_v1.1.md`: ngưỡng số, thuộc tính đo được, quyết định từng ca). Khác BT2 ở chỗ lab này có lớp `person` và `ignore_region`, nên **người và xe máy tách box** (R-02), không gộp như BT2 C9.

@@ -1,9 +1,9 @@
 # Thông tin nhóm
 
 - Tên nhóm: NhomBanDau
-- Mã thành viên (ba chữ số): 515, 113, 007, 102 
+- Mã thành viên (ba chữ số): 515, 113, 107, 102 
 - Người điều phối: 515
-- Người review bản cuối: 007
+- Người review bản cuối: 107
 - Commit chốt bài (điền ở kênh nộp sau khi commit):
 
 ## Kết quả tóm tắt (điền cuối bài)

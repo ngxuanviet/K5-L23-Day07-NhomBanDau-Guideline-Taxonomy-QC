@@ -1,8 +1,8 @@
-# Guideline gán nhãn — v0.2 (cá nhân) — mã 105
+# Guideline gán nhãn — v0.2 (cá nhân) — mã 107
 
 - **Phiên bản:** v0.2 (bản cá nhân, viết từ `guideline_v0_starter.md`)
 - **Mã thành viên:** 107
-- **Người viết:** Trần Nguyễn Phi Long
+- **Người viết:** 107
 - **Ngày:** 16/11/2026
 - **Áp dụng cho:** Bounding Box 2D cho Biển báo và Đèn tín hiệu giao thông (CVAT → COCO 1.0)
 - **Nền tảng kế thừa:** `guideline_v0_starter.md`

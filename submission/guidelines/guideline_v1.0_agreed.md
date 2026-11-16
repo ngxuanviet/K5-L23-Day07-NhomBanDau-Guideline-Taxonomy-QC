@@ -3,7 +3,7 @@
 - Phiên bản: v1.0, **khóa cho lượt gán độc lập Pha 3**
 - Ngày: 2026-11-16
 - Nguồn: hợp nhất `individual/guideline_113.md` (v0.2) và `individual/guideline_515.md` (v0.1)
-- Người chốt: 113, 515 (họp Pha 2)
+- Người chốt: 515, 113, 107, 102 (họp Pha 2)
 - Loại nhãn: bounding box trên ảnh 2D, CVAT, xuất COCO 1.0
 - Taxonomy đi kèm: `submission/taxonomy.json` phiên bản `v1.0` (8 lớp, 4 thuộc tính, mục `rules` giữ nguyên)
 

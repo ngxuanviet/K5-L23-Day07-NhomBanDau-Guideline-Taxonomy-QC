@@ -2,7 +2,7 @@
 
 - **Phiên bản:** v0.2 (bản cá nhân, viết từ `guideline_v0_starter.md`)
 - **Mã thành viên:** 102
-- **Người viết:** Bùi Văn Thịnh (MSSV 2A202604040)
+- **Người viết:** 102
 - **Ngày:** 16/11/2026
 - **Áp dụng cho:** Bounding Box 2D trên ảnh đường phố (CVAT → COCO 1.0)
 - **Nền tảng kế thừa:** `guideline_v0_starter.md`

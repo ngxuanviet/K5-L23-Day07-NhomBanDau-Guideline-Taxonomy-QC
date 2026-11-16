@@ -14,6 +14,15 @@ from PIL import Image
 SOURCE = Path(__file__).resolve().parents[1]
 
 
+def fixture_attrs():
+    """Thuộc tính mẫu cho box; thuộc tính nhóm thêm vào taxonomy lấy giá trị mặc định."""
+    attrs = {"occluded_level": "0", "truncated": "no", "can_review": False}
+    taxonomy = json.loads((SOURCE / "submission" / "taxonomy.json").read_text(encoding="utf-8"))
+    for attribute in taxonomy["attributes"]:
+        attrs.setdefault(attribute["name"], attribute["default"])
+    return attrs
+
+
 class WorkflowTest(unittest.TestCase):
     def setUp(self):
         directory = tempfile.TemporaryDirectory()
@@ -66,7 +75,7 @@ class WorkflowTest(unittest.TestCase):
             "categories": [{"id": 1, "name": label}, {"id": 2, "name": "ignore_region"}],
             "annotations": [
                 {"id": i, "image_id": i, "category_id": 1, "bbox": bbox or [1, 1, 20, 60],
-                 "attributes": {"occluded_level": "0", "truncated": "no", "can_review": False}}
+                 "attributes": fixture_attrs()}
                 for i in range(1, len(names) + 1)
             ],
         }
@@ -107,7 +116,7 @@ class WorkflowTest(unittest.TestCase):
         self.assignments()
         self.coco(self.sub / "labels" / "101.json", additional=[
             {"id": 3, "image_id": 1, "category_id": 1, "bbox": [50, 0, 20, 60],
-             "attributes": {"occluded_level": "0", "truncated": "no", "can_review": False}},
+             "attributes": fixture_attrs()},
         ])
         self.coco(self.sub / "labels" / "102.json", additional=[
             {"id": 3, "image_id": 1, "category_id": 2, "bbox": [45, 0, 45, 80]},
@@ -121,7 +130,7 @@ class WorkflowTest(unittest.TestCase):
     def test_matched_ignore_regions_do_not_hide_asymmetric_coverage(self):
         self.assignments()
         obj = {"id": 3, "image_id": 1, "category_id": 1, "bbox": [25, 35, 10, 20],
-               "attributes": {"occluded_level": "0", "truncated": "no", "can_review": False}}
+               "attributes": fixture_attrs()}
         region = {"id": 4, "image_id": 1, "category_id": 2, "bbox": [28, 15, 65, 75]}
         self.coco(self.sub / "labels" / "101.json", additional=[
             obj, {**region, "bbox": [38, 15, 60, 75]},
