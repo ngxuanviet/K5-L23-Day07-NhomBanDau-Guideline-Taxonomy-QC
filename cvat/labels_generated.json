@@ -26,6 +26,17 @@
         ]
       },
       {
+        "name": "person_state",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "na",
+        "values": [
+          "na",
+          "on_vehicle",
+          "off_vehicle"
+        ]
+      },
+      {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
@@ -58,6 +69,17 @@
         "values": [
           "no",
           "yes"
+        ]
+      },
+      {
+        "name": "person_state",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "na",
+        "values": [
+          "na",
+          "on_vehicle",
+          "off_vehicle"
         ]
       },
       {
@@ -96,6 +118,17 @@
         ]
       },
       {
+        "name": "person_state",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "na",
+        "values": [
+          "na",
+          "on_vehicle",
+          "off_vehicle"
+        ]
+      },
+      {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
@@ -105,7 +138,7 @@
     ]
   },
   {
-    "name": "motorcycle",
+    "name": "bus",
     "color": "#f58231",
     "attributes": [
       {
@@ -131,6 +164,17 @@
         ]
       },
       {
+        "name": "person_state",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "na",
+        "values": [
+          "na",
+          "on_vehicle",
+          "off_vehicle"
+        ]
+      },
+      {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
@@ -140,7 +184,7 @@
     ]
   },
   {
-    "name": "person",
+    "name": "tuk_tuk",
     "color": "#911eb4",
     "attributes": [
       {
@@ -163,6 +207,109 @@
         "values": [
           "no",
           "yes"
+        ]
+      },
+      {
+        "name": "person_state",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "na",
+        "values": [
+          "na",
+          "on_vehicle",
+          "off_vehicle"
+        ]
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      }
+    ]
+  },
+  {
+    "name": "motorcycle",
+    "color": "#46c8c8",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "person_state",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "na",
+        "values": [
+          "na",
+          "on_vehicle",
+          "off_vehicle"
+        ]
+      },
+      {
+        "name": "can_review",
+        "mutable": false,
+        "input_type": "checkbox",
+        "default_value": "false",
+        "values": []
+      }
+    ]
+  },
+  {
+    "name": "person",
+    "color": "#f032e6",
+    "attributes": [
+      {
+        "name": "occluded_level",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "0",
+        "values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "name": "truncated",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "no",
+        "values": [
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "name": "person_state",
+        "mutable": false,
+        "input_type": "select",
+        "default_value": "na",
+        "values": [
+          "na",
+          "on_vehicle",
+          "off_vehicle"
         ]
       },
       {
