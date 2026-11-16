@@ -1,0 +1,4641 @@
+{
+ "licenses": [
+  {
+   "name": "",
+   "id": 0,
+   "url": ""
+  }
+ ],
+ "info": {
+  "contributor": "",
+  "date_created": "",
+  "description": "",
+  "url": "",
+  "version": "",
+  "year": ""
+ },
+ "categories": [
+  {
+   "id": 1,
+   "name": "car",
+   "supercategory": ""
+  },
+  {
+   "id": 2,
+   "name": "truck",
+   "supercategory": ""
+  },
+  {
+   "id": 3,
+   "name": "van",
+   "supercategory": ""
+  },
+  {
+   "id": 4,
+   "name": "bus",
+   "supercategory": ""
+  },
+  {
+   "id": 5,
+   "name": "tuk_tuk",
+   "supercategory": ""
+  },
+  {
+   "id": 6,
+   "name": "motorcycle",
+   "supercategory": ""
+  },
+  {
+   "id": 7,
+   "name": "person",
+   "supercategory": ""
+  },
+  {
+   "id": 8,
+   "name": "ignore_region",
+   "supercategory": ""
+  }
+ ],
+ "images": [
+  {
+   "id": 1,
+   "width": 960,
+   "height": 640,
+   "file_name": "img_001.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 2,
+   "width": 960,
+   "height": 640,
+   "file_name": "img_004.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 3,
+   "width": 960,
+   "height": 640,
+   "file_name": "img_005.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 4,
+   "width": 960,
+   "height": 640,
+   "file_name": "img_007.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 5,
+   "width": 960,
+   "height": 540,
+   "file_name": "img_009.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 6,
+   "width": 960,
+   "height": 640,
+   "file_name": "img_011.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 7,
+   "width": 960,
+   "height": 712,
+   "file_name": "img_014.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 8,
+   "width": 960,
+   "height": 720,
+   "file_name": "img_016.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 9,
+   "width": 960,
+   "height": 854,
+   "file_name": "img_018.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 10,
+   "width": 960,
+   "height": 643,
+   "file_name": "img_019.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 11,
+   "width": 960,
+   "height": 643,
+   "file_name": "img_021.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 12,
+   "width": 960,
+   "height": 720,
+   "file_name": "img_024.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 13,
+   "width": 960,
+   "height": 639,
+   "file_name": "img_025.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 14,
+   "width": 960,
+   "height": 720,
+   "file_name": "img_027.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 15,
+   "width": 960,
+   "height": 720,
+   "file_name": "img_030.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 16,
+   "width": 960,
+   "height": 640,
+   "file_name": "img_031.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 17,
+   "width": 960,
+   "height": 540,
+   "file_name": "img_034.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 18,
+   "width": 960,
+   "height": 720,
+   "file_name": "img_035.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 19,
+   "width": 960,
+   "height": 503,
+   "file_name": "img_038.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  },
+  {
+   "id": 20,
+   "width": 960,
+   "height": 640,
+   "file_name": "img_040.jpg",
+   "license": 0,
+   "flickr_url": "",
+   "coco_url": "",
+   "date_captured": 0
+  }
+ ],
+ "annotations": [
+  {
+   "id": 1,
+   "image_id": 1,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 15770.159999999996,
+   "bbox": [
+    219.1,
+    89.8,
+    104.3,
+    151.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 2,
+   "image_id": 1,
+   "category_id": 2,
+   "segmentation": [],
+   "area": 336891.66000000003,
+   "bbox": [
+    328.3,
+    93.0,
+    619.4,
+    543.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 3,
+   "image_id": 1,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 39583.74,
+   "bbox": [
+    89.8,
+    97.3,
+    119.3,
+    331.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 4,
+   "image_id": 1,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 36022.350000000006,
+   "bbox": [
+    111.5,
+    111.2,
+    118.3,
+    304.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 5,
+   "image_id": 1,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 31476.0,
+   "bbox": [
+    377.5,
+    113.6,
+    152.5,
+    206.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 6,
+   "image_id": 1,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 23733.680000000008,
+   "bbox": [
+    522.8,
+    114.0,
+    123.1,
+    192.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 7,
+   "image_id": 1,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 17820.0,
+   "bbox": [
+    322.3,
+    131.6,
+    100.0,
+    178.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 8,
+   "image_id": 1,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 67996.80000000002,
+   "bbox": [
+    231.1,
+    204.7,
+    157.4,
+    432.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 9,
+   "image_id": 2,
+   "category_id": 5,
+   "segmentation": [],
+   "area": 149753.0,
+   "bbox": [
+    462.0,
+    68.0,
+    391.0,
+    383.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 10,
+   "image_id": 2,
+   "category_id": 5,
+   "segmentation": [],
+   "area": 197730.0,
+   "bbox": [
+    78.0,
+    85.0,
+    390.0,
+    507.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 11,
+   "image_id": 2,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 10800.0,
+   "bbox": [
+    236.0,
+    126.5,
+    100.0,
+    108.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 12,
+   "image_id": 2,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 16676.200000000015,
+   "bbox": [
+    582.8,
+    151.3,
+    83.8,
+    199.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 13,
+   "image_id": 3,
+   "category_id": 3,
+   "segmentation": [],
+   "area": 154979.8,
+   "bbox": [
+    69.3,
+    26.4,
+    468.5,
+    330.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 14,
+   "image_id": 3,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 113606.9,
+   "bbox": [
+    428.4,
+    35.0,
+    225.5,
+    503.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 15,
+   "image_id": 3,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 10470.510000000004,
+   "bbox": [
+    620.1,
+    44.3,
+    95.1,
+    110.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 16,
+   "image_id": 3,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 7806.259999999999,
+   "bbox": [
+    0.2,
+    75.0,
+    81.4,
+    95.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 17,
+   "image_id": 3,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 3229.8900000000053,
+   "bbox": [
+    898.4,
+    101.6,
+    45.3,
+    71.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 18,
+   "image_id": 3,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1833.649999999994,
+   "bbox": [
+    938.1,
+    104.7,
+    21.7,
+    84.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 19,
+   "image_id": 3,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 27106.9,
+   "bbox": [
+    320.5,
+    116.8,
+    166.3,
+    163.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 20,
+   "image_id": 3,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 174805.80000000005,
+   "bbox": [
+    537.8,
+    151.0,
+    368.4,
+    474.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 21,
+   "image_id": 3,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 194146.68000000002,
+   "bbox": [
+    34.9,
+    217.4,
+    463.8,
+    418.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 22,
+   "image_id": 3,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 160176.63999999998,
+   "bbox": [
+    0.0,
+    294.6,
+    481.3,
+    332.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 23,
+   "image_id": 3,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 62527.80000000001,
+   "bbox": [
+    0.0,
+    297.2,
+    211.6,
+    295.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 24,
+   "image_id": 3,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 11255.4,
+   "bbox": [
+    0.1,
+    334.0,
+    46.8,
+    240.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "yes",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 25,
+   "image_id": 3,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 47969.40000000001,
+   "bbox": [
+    773.6,
+    378.3,
+    186.0,
+    257.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 26,
+   "image_id": 3,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 69533.82999999999,
+   "bbox": [
+    451.8,
+    437.1,
+    342.7,
+    202.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 27,
+   "image_id": 4,
+   "category_id": 2,
+   "segmentation": [],
+   "area": 118101.33999999997,
+   "bbox": [
+    651.7,
+    59.3,
+    306.2,
+    385.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 28,
+   "image_id": 4,
+   "category_id": 2,
+   "segmentation": [],
+   "area": 68535.23999999999,
+   "bbox": [
+    384.3,
+    146.4,
+    259.8,
+    263.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 29,
+   "image_id": 5,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 662.3399999999993,
+   "bbox": [
+    213.4,
+    304.8,
+    16.6,
+    39.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 30,
+   "image_id": 5,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 537.200000000001,
+   "bbox": [
+    720.8,
+    404.7,
+    13.6,
+    39.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 31,
+   "image_id": 5,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1156.3200000000006,
+   "bbox": [
+    157.5,
+    422.2,
+    21.9,
+    52.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 32,
+   "image_id": 5,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 824.1800000000032,
+   "bbox": [
+    776.3,
+    429.7,
+    20.3,
+    40.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 33,
+   "image_id": 5,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 3046.0799999999945,
+   "bbox": [
+    914.2,
+    431.0,
+    45.6,
+    66.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 34,
+   "image_id": 5,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 734.4000000000002,
+   "bbox": [
+    312.2,
+    431.5,
+    18.0,
+    40.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 35,
+   "image_id": 5,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 1949.5299999999982,
+   "bbox": [
+    867.2,
+    433.9,
+    40.7,
+    47.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 36,
+   "image_id": 5,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 2726.480000000004,
+   "bbox": [
+    707.8,
+    438.9,
+    69.2,
+    39.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 37,
+   "image_id": 5,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 1576.2599999999989,
+   "bbox": [
+    154.9,
+    442.1,
+    37.8,
+    41.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 38,
+   "image_id": 5,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 10190.31000000001,
+   "bbox": [
+    811.8,
+    470.2,
+    147.9,
+    68.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 39,
+   "image_id": 5,
+   "category_id": 4,
+   "segmentation": [],
+   "area": 38811.99999999999,
+   "bbox": [
+    356.8,
+    368.6,
+    310.0,
+    125.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 40,
+   "image_id": 6,
+   "category_id": 2,
+   "segmentation": [],
+   "area": 9359.84,
+   "bbox": [
+    516.1,
+    325.1,
+    109.6,
+    85.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 41,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 518.3199999999991,
+   "bbox": [
+    420.6,
+    330.9,
+    12.4,
+    41.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 42,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1055.6400000000008,
+   "bbox": [
+    445.3,
+    333.4,
+    22.8,
+    46.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 43,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 329.7999999999996,
+   "bbox": [
+    406.5,
+    334.7,
+    9.7,
+    34.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 44,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 589.8199999999985,
+   "bbox": [
+    281.1,
+    336.6,
+    15.4,
+    38.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 45,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1159.9300000000003,
+   "bbox": [
+    83.5,
+    337.0,
+    19.3,
+    60.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 46,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 697.4499999999995,
+   "bbox": [
+    305.9,
+    337.8,
+    14.5,
+    48.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 47,
+   "image_id": 6,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 1050.900000000001,
+   "bbox": [
+    432.2,
+    338.5,
+    46.5,
+    22.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 48,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 922.2499999999998,
+   "bbox": [
+    266.0,
+    339.2,
+    17.5,
+    52.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 49,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1367.3999999999992,
+   "bbox": [
+    196.3,
+    339.3,
+    21.2,
+    64.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 50,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1055.04,
+   "bbox": [
+    31.5,
+    340.9,
+    16.8,
+    62.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 51,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 969.239999999999,
+   "bbox": [
+    211.8,
+    341.0,
+    16.4,
+    59.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 52,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1432.519999999999,
+   "bbox": [
+    358.1,
+    341.4,
+    23.6,
+    60.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 53,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1327.1500000000003,
+   "bbox": [
+    170.5,
+    341.8,
+    20.9,
+    63.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 54,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 548.0599999999995,
+   "bbox": [
+    324.3,
+    344.7,
+    13.4,
+    40.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 55,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 941.8800000000007,
+   "bbox": [
+    40.3,
+    345.7,
+    16.7,
+    56.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 56,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 6995.639999999998,
+   "bbox": [
+    100.0,
+    355.3,
+    60.1,
+    116.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 57,
+   "image_id": 6,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 6920.75,
+   "bbox": [
+    48.9,
+    366.1,
+    58.9,
+    117.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 58,
+   "image_id": 7,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 129270.60000000002,
+   "bbox": [
+    263.9,
+    123.9,
+    222.0,
+    582.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 59,
+   "image_id": 7,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 75342.40000000005,
+   "bbox": [
+    654.3,
+    178.2,
+    151.9,
+    496.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 60,
+   "image_id": 8,
+   "category_id": 3,
+   "segmentation": [],
+   "area": 97147.77,
+   "bbox": [
+    534.3,
+    270.5,
+    421.1,
+    230.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 61,
+   "image_id": 8,
+   "category_id": 5,
+   "segmentation": [],
+   "area": 91840.0,
+   "bbox": [
+    0.0,
+    276.0,
+    328.0,
+    280.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 62,
+   "image_id": 8,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 19567.17000000001,
+   "bbox": [
+    420.0,
+    304.9,
+    182.7,
+    107.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 63,
+   "image_id": 8,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 22439.39999999999,
+   "bbox": [
+    411.6,
+    321.8,
+    100.4,
+    223.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 64,
+   "image_id": 8,
+   "category_id": 5,
+   "segmentation": [],
+   "area": 105369.0,
+   "bbox": [
+    649.0,
+    331.0,
+    309.0,
+    341.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 65,
+   "image_id": 8,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1610.8199999999993,
+   "bbox": [
+    411.3,
+    334.5,
+    31.4,
+    51.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 66,
+   "image_id": 8,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 13064.020000000006,
+   "bbox": [
+    16.0,
+    372.9,
+    117.8,
+    110.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 67,
+   "image_id": 8,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 5097.950000000005,
+   "bbox": [
+    849.3,
+    402.9,
+    71.3,
+    71.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 68,
+   "image_id": 8,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 44359.69999999999,
+   "bbox": [
+    322.5,
+    404.8,
+    269.5,
+    164.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 69,
+   "image_id": 8,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 50995.81000000003,
+   "bbox": [
+    775.4,
+    442.4,
+    184.3,
+    276.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 70,
+   "image_id": 9,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 34421.25000000001,
+   "bbox": [
+    165.9,
+    495.7,
+    205.5,
+    167.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 71,
+   "image_id": 9,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 13409.390000000007,
+   "bbox": [
+    0.2,
+    530.9,
+    115.3,
+    116.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 72,
+   "image_id": 9,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 24466.32000000001,
+   "bbox": [
+    742.7,
+    543.8,
+    216.9,
+    112.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 73,
+   "image_id": 9,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 27975.000000000007,
+   "bbox": [
+    385.9,
+    543.9,
+    223.8,
+    125.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 74,
+   "image_id": 9,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 32497.32000000003,
+   "bbox": [
+    569.8,
+    549.4,
+    272.4,
+    119.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 75,
+   "image_id": 9,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 1304.6400000000017,
+   "bbox": [
+    914.5,
+    556.9,
+    45.3,
+    28.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 76,
+   "image_id": 10,
+   "category_id": 8,
+   "segmentation": [],
+   "area": 164500.0,
+   "bbox": [
+    0.0,
+    40.0,
+    940.0,
+    175.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 77,
+   "image_id": 10,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 5850.0,
+   "bbox": [
+    150.0,
+    60.0,
+    65.0,
+    90.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 78,
+   "image_id": 10,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 14500.0,
+   "bbox": [
+    40.0,
+    105.0,
+    100.0,
+    145.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 79,
+   "image_id": 10,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 3575.0,
+   "bbox": [
+    105.0,
+    150.0,
+    55.0,
+    65.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 80,
+   "image_id": 10,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 3570.0,
+   "bbox": [
+    925.0,
+    160.0,
+    35.0,
+    102.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "yes",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 81,
+   "image_id": 10,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 4675.0,
+   "bbox": [
+    455.0,
+    200.0,
+    55.0,
+    85.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 82,
+   "image_id": 10,
+   "category_id": 8,
+   "segmentation": [],
+   "area": 40850.0,
+   "bbox": [
+    0.0,
+    205.0,
+    215.0,
+    190.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 83,
+   "image_id": 10,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 315252.0,
+   "bbox": [
+    122.0,
+    205.0,
+    756.0,
+    417.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 84,
+   "image_id": 10,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 4560.0,
+   "bbox": [
+    524.0,
+    238.0,
+    76.0,
+    60.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 85,
+   "image_id": 10,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 29435.0,
+   "bbox": [
+    815.0,
+    440.0,
+    145.0,
+    203.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 86,
+   "image_id": 11,
+   "category_id": 8,
+   "segmentation": [],
+   "area": 347110.94000000006,
+   "bbox": [
+    64.7,
+    217.9,
+    833.8,
+    416.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 87,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1201.4199999999992,
+   "bbox": [
+    538.0,
+    225.0,
+    25.4,
+    47.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 88,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 3579.8100000000004,
+   "bbox": [
+    753.1,
+    234.3,
+    41.1,
+    87.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 89,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1346.1600000000037,
+   "bbox": [
+    555.3,
+    234.5,
+    28.4,
+    47.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 90,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1868.7499999999986,
+   "bbox": [
+    644.2,
+    236.8,
+    29.9,
+    62.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 91,
+   "image_id": 11,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 7531.749999999999,
+   "bbox": [
+    251.3,
+    238.4,
+    117.5,
+    64.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 92,
+   "image_id": 11,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 17387.649999999998,
+   "bbox": [
+    0.2,
+    239.8,
+    164.5,
+    105.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 93,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 6287.780000000003,
+   "bbox": [
+    803.8,
+    241.5,
+    58.6,
+    107.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 94,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 3326.719999999995,
+   "bbox": [
+    672.6,
+    245.1,
+    45.2,
+    73.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 95,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 2506.9099999999967,
+   "bbox": [
+    602.1,
+    246.2,
+    41.3,
+    60.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 96,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 2713.600000000001,
+   "bbox": [
+    442.4,
+    246.4,
+    51.2,
+    53.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 97,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 2688.4200000000023,
+   "bbox": [
+    306.4,
+    248.1,
+    34.6,
+    77.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 98,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 4977.28,
+   "bbox": [
+    82.4,
+    249.1,
+    70.7,
+    70.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 99,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 2194.88,
+   "bbox": [
+    226.9,
+    251.5,
+    36.1,
+    60.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 100,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 4712.399999999999,
+   "bbox": [
+    500.0,
+    255.6,
+    69.3,
+    68.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 101,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 5266.799999999997,
+   "bbox": [
+    567.7,
+    256.4,
+    50.4,
+    104.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 102,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 3258.3600000000006,
+   "bbox": [
+    151.2,
+    256.5,
+    37.8,
+    86.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 103,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 2070.359999999998,
+   "bbox": [
+    335.3,
+    258.6,
+    28.4,
+    72.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 104,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 8594.810000000003,
+   "bbox": [
+    698.0,
+    258.6,
+    61.7,
+    139.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 105,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 2264.239999999999,
+   "bbox": [
+    177.1,
+    260.1,
+    34.1,
+    66.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 106,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 9951.999999999998,
+   "bbox": [
+    36.0,
+    262.3,
+    80.0,
+    124.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 107,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 9251.599999999997,
+   "bbox": [
+    257.3,
+    263.6,
+    91.6,
+    101.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 108,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1304.799999999999,
+   "bbox": [
+    386.2,
+    265.8,
+    28.0,
+    46.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 109,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 5868.5700000000015,
+   "bbox": [
+    199.6,
+    270.3,
+    62.9,
+    93.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 110,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 14262.959999999994,
+   "bbox": [
+    396.0,
+    271.5,
+    80.4,
+    177.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 111,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 6058.119999999998,
+   "bbox": [
+    343.5,
+    274.0,
+    60.4,
+    100.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 112,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 7146.300000000007,
+   "bbox": [
+    504.2,
+    290.4,
+    83.0,
+    86.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 113,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 10201.44000000001,
+   "bbox": [
+    641.3,
+    293.9,
+    84.8,
+    120.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 114,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 12141.91,
+   "bbox": [
+    0.0,
+    294.0,
+    73.1,
+    166.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 115,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 56300.19999999998,
+   "bbox": [
+    579.5,
+    302.6,
+    179.3,
+    314.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 116,
+   "image_id": 11,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 2928.7799999999947,
+   "bbox": [
+    795.6,
+    304.3,
+    47.7,
+    61.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 117,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 16488.7,
+   "bbox": [
+    470.5,
+    304.4,
+    107.0,
+    154.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 118,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 9563.399999999998,
+   "bbox": [
+    158.3,
+    324.5,
+    75.9,
+    126.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 119,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 47384.950000000004,
+   "bbox": [
+    245.5,
+    328.7,
+    181.9,
+    260.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 120,
+   "image_id": 11,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 28812.0,
+   "bbox": [
+    455.5,
+    330.5,
+    147.0,
+    196.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 121,
+   "image_id": 11,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 20962.480000000003,
+   "bbox": [
+    339.3,
+    341.6,
+    180.4,
+    116.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 122,
+   "image_id": 11,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 15858.5,
+   "bbox": [
+    0.1,
+    346.8,
+    137.9,
+    115.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 123,
+   "image_id": 11,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 4035.599999999992,
+   "bbox": [
+    706.7,
+    352.7,
+    45.6,
+    88.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 124,
+   "image_id": 11,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 9531.899999999998,
+   "bbox": [
+    0.1,
+    432.2,
+    76.5,
+    124.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 125,
+   "image_id": 11,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 58276.80000000001,
+   "bbox": [
+    127.4,
+    436.5,
+    284.0,
+    205.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 126,
+   "image_id": 11,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 11001.119999999995,
+   "bbox": [
+    46.7,
+    478.6,
+    98.4,
+    111.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 127,
+   "image_id": 11,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 24330.0,
+   "bbox": [
+    536.6,
+    489.7,
+    162.2,
+    150.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 128,
+   "image_id": 11,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 1703.4000000000008,
+   "bbox": [
+    0.1,
+    592.0,
+    34.0,
+    50.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 129,
+   "image_id": 11,
+   "category_id": 4,
+   "segmentation": [],
+   "area": 3449.5500000000015,
+   "bbox": [
+    828.8,
+    185.7,
+    91.5,
+    37.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 130,
+   "image_id": 12,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 87625.62,
+   "bbox": [
+    242.6,
+    45.8,
+    436.6,
+    200.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 131,
+   "image_id": 12,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 11917.520000000002,
+   "bbox": [
+    0.1,
+    199.1,
+    191.6,
+    62.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 132,
+   "image_id": 12,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 55553.49,
+   "bbox": [
+    0.4,
+    200.1,
+    234.7,
+    236.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 133,
+   "image_id": 12,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 9272.059999999998,
+   "bbox": [
+    170.8,
+    206.4,
+    144.2,
+    64.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 134,
+   "image_id": 12,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 1832.9600000000023,
+   "bbox": [
+    671.3,
+    208.2,
+    51.2,
+    35.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 135,
+   "image_id": 12,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 15192.659999999993,
+   "bbox": [
+    831.7,
+    211.2,
+    128.1,
+    118.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 136,
+   "image_id": 12,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 42942.08,
+   "bbox": [
+    693.0,
+    219.1,
+    234.4,
+    183.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 137,
+   "image_id": 12,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 161574.93,
+   "bbox": [
+    100.8,
+    233.3,
+    441.1,
+    366.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 138,
+   "image_id": 12,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 154612.24,
+   "bbox": [
+    414.6,
+    233.7,
+    422.9,
+    365.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 139,
+   "image_id": 12,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 34776.59999999999,
+   "bbox": [
+    0.7,
+    540.7,
+    194.5,
+    178.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 140,
+   "image_id": 13,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 3305.9699999999975,
+   "bbox": [
+    452.1,
+    331.8,
+    32.7,
+    101.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 141,
+   "image_id": 13,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 4430.7999999999965,
+   "bbox": [
+    901.5,
+    340.8,
+    58.3,
+    76.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 142,
+   "image_id": 13,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1996.5599999999954,
+   "bbox": [
+    535.7,
+    342.3,
+    28.2,
+    70.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 143,
+   "image_id": 13,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 662.6499999999999,
+   "bbox": [
+    491.1,
+    346.7,
+    14.5,
+    45.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 144,
+   "image_id": 13,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 3927.290000000006,
+   "bbox": [
+    744.4,
+    347.4,
+    64.7,
+    60.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 145,
+   "image_id": 13,
+   "category_id": 8,
+   "segmentation": [],
+   "area": 36457.96000000002,
+   "bbox": [
+    149.1,
+    352.4,
+    676.4,
+    53.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 146,
+   "image_id": 13,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 3426.0799999999963,
+   "bbox": [
+    815.2,
+    352.7,
+    43.7,
+    78.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 147,
+   "image_id": 13,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 2351.4400000000014,
+   "bbox": [
+    34.5,
+    382.7,
+    49.4,
+    47.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 148,
+   "image_id": 13,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 3151.2599999999975,
+   "bbox": [
+    806.9,
+    385.3,
+    54.9,
+    57.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 149,
+   "image_id": 15,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 20481.999999999975,
+   "bbox": [
+    697.2,
+    26.9,
+    83.6,
+    245.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 150,
+   "image_id": 15,
+   "category_id": 8,
+   "segmentation": [],
+   "area": 636030.0,
+   "bbox": [
+    4.9,
+    53.3,
+    955.0,
+    666.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 151,
+   "image_id": 15,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 7086.240000000001,
+   "bbox": [
+    366.3,
+    99.8,
+    79.8,
+    88.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 152,
+   "image_id": 15,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 41340.71,
+   "bbox": [
+    193.6,
+    106.9,
+    170.9,
+    241.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 153,
+   "image_id": 15,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 151996.95,
+   "bbox": [
+    439.6,
+    390.2,
+    462.7,
+    328.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 154,
+   "image_id": 16,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 5422.959999999998,
+   "bbox": [
+    746.9,
+    355.2,
+    42.4,
+    127.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 155,
+   "image_id": 16,
+   "category_id": 8,
+   "segmentation": [],
+   "area": 32249.440000000006,
+   "bbox": [
+    58.3,
+    355.8,
+    380.3,
+    84.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 156,
+   "image_id": 16,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 883.4000000000003,
+   "bbox": [
+    190.6,
+    362.4,
+    14.0,
+    63.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 157,
+   "image_id": 16,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 15226.089999999997,
+   "bbox": [
+    265.8,
+    365.7,
+    142.7,
+    106.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 158,
+   "image_id": 16,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 598.5599999999993,
+   "bbox": [
+    200.9,
+    367.1,
+    11.6,
+    51.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 159,
+   "image_id": 16,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 2250.9399999999964,
+   "bbox": [
+    491.6,
+    368.7,
+    48.2,
+    46.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 160,
+   "image_id": 16,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1082.7300000000012,
+   "bbox": [
+    161.6,
+    372.5,
+    19.3,
+    56.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 161,
+   "image_id": 16,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 4349.020000000003,
+   "bbox": [
+    429.0,
+    374.7,
+    77.8,
+    55.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 162,
+   "image_id": 16,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 6767.040000000003,
+   "bbox": [
+    520.5,
+    374.7,
+    91.2,
+    74.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 163,
+   "image_id": 16,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 1219.500000000001,
+   "bbox": [
+    233.7,
+    387.8,
+    27.1,
+    45.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 164,
+   "image_id": 16,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 2641.7999999999997,
+   "bbox": [
+    62.4,
+    401.2,
+    44.4,
+    59.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 165,
+   "image_id": 16,
+   "category_id": 4,
+   "segmentation": [],
+   "area": 13618.799999999997,
+   "bbox": [
+    569.6,
+    315.9,
+    116.4,
+    117.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 166,
+   "image_id": 17,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 29912.68999999998,
+   "bbox": [
+    861.5,
+    159.4,
+    98.3,
+    304.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 167,
+   "image_id": 17,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 40476.040000000015,
+   "bbox": [
+    358.4,
+    161.9,
+    147.4,
+    274.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 168,
+   "image_id": 17,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 4892.549999999994,
+   "bbox": [
+    823.1,
+    221.2,
+    50.7,
+    96.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 169,
+   "image_id": 17,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1856.4000000000046,
+   "bbox": [
+    594.9,
+    227.2,
+    27.3,
+    68.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 170,
+   "image_id": 17,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 18746.059999999994,
+   "bbox": [
+    365.7,
+    227.4,
+    223.7,
+    83.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 171,
+   "image_id": 17,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1221.2899999999995,
+   "bbox": [
+    65.9,
+    227.9,
+    23.9,
+    51.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 172,
+   "image_id": 17,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 2857.600000000001,
+   "bbox": [
+    643.0,
+    228.4,
+    38.0,
+    75.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 173,
+   "image_id": 17,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 2671.7999999999997,
+   "bbox": [
+    770.6,
+    230.5,
+    36.5,
+    73.2
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 174,
+   "image_id": 17,
+   "category_id": 8,
+   "segmentation": [],
+   "area": 41995.800000000025,
+   "bbox": [
+    48.9,
+    231.7,
+    707.0,
+    59.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 175,
+   "image_id": 17,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 1109.079999999999,
+   "bbox": [
+    169.9,
+    232.6,
+    23.3,
+    47.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 176,
+   "image_id": 17,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 4971.290000000006,
+   "bbox": [
+    826.9,
+    250.3,
+    56.3,
+    88.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 177,
+   "image_id": 17,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 1564.2000000000012,
+   "bbox": [
+    776.5,
+    267.7,
+    31.6,
+    49.5
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 178,
+   "image_id": 17,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 1483.9300000000014,
+   "bbox": [
+    647.8,
+    267.9,
+    30.1,
+    49.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 179,
+   "image_id": 17,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 13234.400000000003,
+   "bbox": [
+    888.9,
+    349.2,
+    71.0,
+    186.4
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 180,
+   "image_id": 18,
+   "category_id": 5,
+   "segmentation": [],
+   "area": 42822.0,
+   "bbox": [
+    380.0,
+    180.0,
+    183.0,
+    234.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 181,
+   "image_id": 18,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 521.5999999999999,
+   "bbox": [
+    246.0,
+    206.8,
+    16.0,
+    32.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 182,
+   "image_id": 18,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 32101.019999999997,
+   "bbox": [
+    643.2,
+    210.2,
+    131.4,
+    244.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 183,
+   "image_id": 18,
+   "category_id": 5,
+   "segmentation": [],
+   "area": 19998.0,
+   "bbox": [
+    744.0,
+    214.0,
+    101.0,
+    198.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 184,
+   "image_id": 18,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 609.7700000000011,
+   "bbox": [
+    569.5,
+    223.8,
+    21.7,
+    28.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 185,
+   "image_id": 18,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 2604.0,
+   "bbox": [
+    420.0,
+    228.0,
+    42.0,
+    62.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 186,
+   "image_id": 18,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 3775.1999999999994,
+   "bbox": [
+    331.3,
+    229.6,
+    42.9,
+    88.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 187,
+   "image_id": 18,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 272.05999999999864,
+   "bbox": [
+    652.2,
+    234.3,
+    12.2,
+    22.3
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 188,
+   "image_id": 18,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 830.3000000000005,
+   "bbox": [
+    667.5,
+    236.5,
+    23.0,
+    36.1
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 189,
+   "image_id": 18,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 994.0800000000023,
+   "bbox": [
+    937.9,
+    240.3,
+    21.8,
+    45.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "yes",
+    "person_state": "off_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 190,
+   "image_id": 18,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 7184.43,
+   "bbox": [
+    838.0,
+    244.3,
+    110.7,
+    64.9
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 191,
+   "image_id": 18,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 14987.199999999995,
+   "bbox": [
+    539.7,
+    250.6,
+    129.2,
+    116.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 192,
+   "image_id": 18,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 6657.200000000001,
+   "bbox": [
+    294.8,
+    262.7,
+    89.0,
+    74.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 193,
+   "image_id": 18,
+   "category_id": 6,
+   "segmentation": [],
+   "area": 23885.4,
+   "bbox": [
+    648.1,
+    296.4,
+    115.5,
+    206.8
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 194,
+   "image_id": 20,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 41068.439999999995,
+   "bbox": [
+    179.2,
+    78.3,
+    227.4,
+    180.6
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 195,
+   "image_id": 20,
+   "category_id": 5,
+   "segmentation": [],
+   "area": 16560.0,
+   "bbox": [
+    75.0,
+    95.0,
+    115.0,
+    144.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "1",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 196,
+   "image_id": 20,
+   "category_id": 7,
+   "segmentation": [],
+   "area": 145544.33000000002,
+   "bbox": [
+    507.7,
+    111.8,
+    307.9,
+    472.7
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "3",
+    "truncated": "no",
+    "person_state": "on_vehicle",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 197,
+   "image_id": 20,
+   "category_id": 5,
+   "segmentation": [],
+   "area": 77000.0,
+   "bbox": [
+    325.0,
+    120.0,
+    275.0,
+    280.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "2",
+    "truncated": "no",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": true,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 198,
+   "image_id": 20,
+   "category_id": 1,
+   "segmentation": [],
+   "area": 454281.0,
+   "bbox": [
+    30.0,
+    150.0,
+    929.0,
+    489.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": false,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  },
+  {
+   "id": 199,
+   "image_id": 20,
+   "category_id": 4,
+   "segmentation": [],
+   "area": 43256.399999999994,
+   "bbox": [
+    98.6,
+    1.6,
+    372.9,
+    116.0
+   ],
+   "iscrowd": 0,
+   "attributes": {
+    "occluded_level": "0",
+    "truncated": "yes",
+    "person_state": "na",
+    "can_review": true,
+    "occluded": false,
+    "rotation": 0.0
+   }
+  }
+ ]
+}
